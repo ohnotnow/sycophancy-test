@@ -1,6 +1,9 @@
 # sycophancy-test
 
-A Python-based CLI tool that generates simple numeric‐comparison prompts, sends them to one or more [litellm](https://pypi.org/project/litellm/) models in parallel, and emits the results as CSV for downstream analysis (e.g., with O3, O4-mini, Claude, etc.).
+A simple python script to try and test LLM's for sycophancy or contrarianism.  Based on an idea from an 'AI Explained' video (see their youtube channel at https://www.youtube.com/@aiexplained-official)
+
+Outputs a csv of results for further analysis.
+
 
 ## Table of Contents
 - [Features](#features)  
@@ -103,8 +106,3 @@ Please adhere to existing code style and include tests where appropriate.
 ## License
 
 This project is licensed under the MIT License.  
-```text
-MIT License
-
-[Full text available at https://opensource.org/licenses/MIT]
-```
